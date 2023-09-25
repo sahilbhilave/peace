@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.3.0"
+    buildFolder="/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/build/app"
+    bootClassPath="/home/sahil/Android/Sdk/platforms/android-33/android.jar:/home/sahil/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

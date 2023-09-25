@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.demo"
+4    android:versionCode="4"
+5    android:versionName="1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:3:1-62
+11-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:3:18-60
+12
+13    <application
+14        android:name="android.app.Application"
+14-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:6:9-42
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.6.0] /home/sahil/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:7:9-43
+17        android:label="demo"
+17-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:5:9-29
+18        android:usesCleartextTraffic="true" >
+18-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:8:9-44
+19        <activity
+19-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:11:9-31:20
+20            android:name="com.example.demo.MainActivity"
+20-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:12:13-41
+21            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+21-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:16:13-163
+22            android:exported="true"
+22-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:13:13-36
+23            android:hardwareAccelerated="true"
+23-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:17:13-47
+24            android:launchMode="singleTop"
+24-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:14:13-43
+25            android:theme="@style/LaunchTheme"
+25-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:15:13-47
+26            android:windowSoftInputMode="adjustResize" >
+26-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:18:13-55
+27
+28            <!--
+29                 Specifies an Android theme to apply to this Activity as soon as
+30                 the Android process has started. This theme is visible to the user
+31                 while the Flutter UI initializes. After that, this theme continues
+32                 to determine the Window background behind the Flutter UI.
+33            -->
+34            <meta-data
+34-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:23:13-26:17
+35                android:name="io.flutter.embedding.android.NormalTheme"
+35-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:24:15-70
+36                android:resource="@style/NormalTheme" />
+36-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:25:15-52
+37
+38            <intent-filter>
+38-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:27:13-30:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:28:17-68
+39-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:28:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:29:17-76
+41-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:29:27-74
+42            </intent-filter>
+43        </activity>
+44        <!--
+45             Don't delete the meta-data below.
+46             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+47        -->
+48        <meta-data
+48-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:34:9-36:33
+49            android:name="flutterEmbedding"
+49-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:35:13-44
+50            android:value="2" />
+50-->/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/android/app/src/main/AndroidManifest.xml:36:13-30
+51
+52        <uses-library
+52-->[androidx.window:window:1.0.0-beta04] /home/sahil/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+53            android:name="androidx.window.extensions"
+53-->[androidx.window:window:1.0.0-beta04] /home/sahil/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+54            android:required="false" />
+54-->[androidx.window:window:1.0.0-beta04] /home/sahil/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+55        <uses-library
+55-->[androidx.window:window:1.0.0-beta04] /home/sahil/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+56            android:name="androidx.window.sidecar"
+56-->[androidx.window:window:1.0.0-beta04] /home/sahil/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+57            android:required="false" />
+57-->[androidx.window:window:1.0.0-beta04] /home/sahil/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+58    </application>
+59
+60</manifest>

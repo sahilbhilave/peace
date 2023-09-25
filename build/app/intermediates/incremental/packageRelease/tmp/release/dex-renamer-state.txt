@@ -1,0 +1,4 @@
+#Sun Sep 24 23:37:09 IST 2023
+base.0=/home/sahil/Visual Studio Projects/Flutter/basic/prototype/demo/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
